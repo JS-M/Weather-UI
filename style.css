@@ -1,0 +1,155 @@
+.b{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:skyblue;
+    font-weight: bold;
+}
+.page{
+    background-color:rgb(255, 255, 255);
+    margin: 1%;
+    border-radius: 2%;
+
+
+}
+.text{
+    font-weight: 400;
+}
+  
+.navigation{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr ;
+    
+}
+.search{
+    border-radius: 10px;
+    border: none;
+}
+.today{
+   /* display: flex;
+    flex-direction: row;
+    gap: 17px;*/
+    font-size: 20px;
+    font-weight: 400;
+}
+.active{
+    text-decoration: none;
+    color: blue;
+    margin: 3%;
+    font-size: 20px;
+    font-weight: 400;
+}
+.img-rounded{
+    border-radius: 50%;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.clm{
+    background-color: #f6f6f6;
+    /*float: left;*/
+    /*width: 20%;*/
+    /*display: flex;
+    flex-direction: column;*/
+    border-radius: 2% 0% 0% 2%;
+}  
+ .pic{
+       border:none;
+    }
+.meter{
+    font-weight: 400;
+    font-size :xx-large;
+    
+}
+.img2{
+      font-size: 12px;
+      font-weight: 500;
+     
+}
+.img3{
+    width: 80%;
+    height: 70%;
+    border-radius:20px;
+}
+.place{
+    background-image:url("pics/istockphoto-1276469666-612x612.jpg");
+    width: 90%;
+    height: 25%;
+    border-radius:20px;
+    background-size: cover;
+
+}
+.tet {
+    position: absolute;
+    
+  }
+  .fcont{
+      display: flex;
+      flex-direction: row;
+     
+      margin: 2%;
+  }
+  .fcont > div {
+    background-color: #f6f6f6;
+    width: 15%;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+
+  }
+  .sImages{
+      width: 60px;
+      height: 60px;
+  }
+  .fcont2{
+    display: flex;
+    flex-direction: row;
+   
+    margin: 1%;
+}
+.fcont2 > div {
+    background-color: #f6f6f6;
+    width: 40%;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+
+  }
+  .t3{
+      display: flex;
+      flex-direction: column;
+      
+  }
+ .t3 > div{
+   
+     text-align:start;
+ }
+ .t4{
+     text-align: left;
+    
+ }
+ .time{
+     position: absolute;
+     align-items: flex-end;
+     font-size: small;
+     color:gray ;
+ }
+ .km{
+     font-size: 3em;
+     font-weight: 500;
+     
+ }
+ .onpic{
+     color: gray;
+     font-size: smaller;
+ }
+ .cont1{
+     background-color: #f6f6f6;
+     float: right;
+     height: 40px;
+     width: 180px;
+     font-size:small;
+     border-radius: 10px;
+ }
+ 
+    
